@@ -22,6 +22,7 @@ The Raspberry Pi will reboot into the Raspbian PIXEL desktop. Welcome to Linux!
 Before doing anything, the time must be correctly set so wifi networking connects appropriately. Click on the `Raspberry Menu` icon in the upper left hand corner, navigate to `Preferences` and select `Raspberry Pi Configuration`. Within this dialog box, make some changes...
 
 `System` Tab
+- `Change Password` to a password of your choosing of at least 8 characters. The current password is `raspberry`.
 - Hostname: yourname-pi
 
 `Interface` Tab
@@ -36,3 +37,17 @@ Before doing anything, the time must be correctly set so wifi networking connect
 #### Connecting to the Class Wifi Network
 
 Click on the wifi symbol and connect to the "Nerd Corner" network. There is no password.
+
+#### Updating and Upgrading
+
+Unlike Windows and macOS, much of the software for the Linux platform is free of charge and readily available. Software is managed in Raspbian by a software package manager called `Aptitude` that can be run interactively from the command line. Open up the Terminal application `[>_]` from the menu bar and type the following, being mindful of capitalization and spaces.
+
+```
+sudo apt-get update
+```
+This line of code checks for updated software and ensures you don't get old versions of packages.
+
+```
+sudo apt-get upgrade
+```
+This line of code installs all new software packages available, ensuring the Raspberry Pi is fully up-to-date. You may need to press 'q', 'y', or 'i' at various points if the installers require it.
