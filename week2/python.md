@@ -11,6 +11,26 @@ The standard `Hello world` example, in Python:
 ```
 print("Hello world")
 ```
+##### Comments
+Comments are text that are humand-readable, and ignored by the compiler. Take notes by using comments directly in code!
+
+You can write comments in Python by typing the `#` character and following it up with text on a single line.
+
+```
+print("Hello world") #this prints text to the console
+```
+
+Multi-line comments use three quotation characters to begin and end the comment.
+
+```
+"""
+This says hello
+to everyone
+all over the planet
+"""
+
+print("Hello World!")
+```
 
 ##### Indentation
 Some languages use curly braces { and } to wrap around lines of code which belong together, and leave it to the writer to indent these lines to appear visually nested. However, Python does not use curly braces but instead requires indentation for nesting. For example a for loop in Python:
@@ -42,12 +62,6 @@ age = 15
 age += 1  # increment age by 1
 print(age)
 This time I used comments beside the increment command.
-Comments
-Comments are ignored in the program but there for you to leave notes, and are denoted by the hash # symbol. Multi-line comments use triple quotes like so:
-"""
-This is a very simple Python program that prints "Hello".
-That's all it does.
-"""
 
 print("Hello")
 Lists
