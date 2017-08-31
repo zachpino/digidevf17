@@ -248,7 +248,3 @@ You can also use the `~` character to represent the home folder at any moment.
 `pwd`
 
 `/Users/zach/`
-
------
-
-We can now hop back into [preparing the identity file](identityfile.md) for accessing the AWS server.
