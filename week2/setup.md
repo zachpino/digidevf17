@@ -32,6 +32,7 @@ Before doing anything, the time must be correctly set so wifi networking connect
 `Localisation` Tab
 - `Set Locale` to `en (English)`, `US(USA)`, and `UTF-8`
 - `Set Timezone` to `America`, and `Chicago`
+- `Set Keyboard` to `United States` and `English (US)` or to your taste
 - `Set Wifi Country` to `US United States`
 
 #### Connecting to the Class Wifi Network
