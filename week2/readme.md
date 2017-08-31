@@ -15,7 +15,7 @@ You will need to connect componets to your Raspberry Pi in the correct order.
 
 The red led on the board should light up and your HDMI monitor will soon illuminate, allowing you to install the Raspbian operating system and expand your filesystem. Click on 'Install' to begin the 5 minute process.
 
-##### OS Configuration
+#### OS Configuration
 
 The Raspberry Pi will reboot into the Raspbian PIXEL desktop. Welcome to Linux!
 
@@ -33,6 +33,6 @@ Before doing anything, the time must be correctly set so wifi networking connect
 - `Set Timezone` to `America`, and `Chicago`
 - `Set Wifi Country` to `US United States`
 
-##### Connecting to the Class Wifi Network
+#### Connecting to the Class Wifi Network
 
 Click on the wifi symbol and connect to the "Nerd Corner" network. There is no password.
