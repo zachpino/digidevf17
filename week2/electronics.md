@@ -41,4 +41,4 @@ while True:
         time.sleep(0.5) #delay a bit
 ```
 
-[electronics]: FullSizeRender.jpg
+![electronics](FullSizeRender.jpg)
