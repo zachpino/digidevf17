@@ -1,5 +1,4 @@
 ### Turn on and off an LED on pin 18
-
 ```
 #import necessary libraries
 import RPi.GPIO as GPIO
@@ -41,3 +40,5 @@ while True:
         print('Button Pressed')
         time.sleep(0.5) #delay a bit
 ```
+
+[electronics]: FullSizeRender.jpg
