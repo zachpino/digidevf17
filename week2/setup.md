@@ -58,3 +58,25 @@ This line of code installs all new software packages available, ensuring the Ras
 #### Restart your Raspberry Pi
 
 Click on the `Raspberry Menu` and click `Shut Down`. A dialog will pop open and allow you to `Restart`.
+
+####Static IP
+
+It is necessary that the Raspberry Pi always be available at a reliably consistent location on the internet. For this reason, we can set a static IP address.
+
+```
+sudo nano /etc/dhcpcd.conf
+```
+
+add to the very bottom of the file...
+
+```
+# Custom static IP address for wlan0.
+interface wlan0
+static ip_address=192.168.0.$$$
+static routers=192.168.0.1
+static domain_name_servers=192.168.0.1
+```
+
+Change the `$$$` to three random numbers and remember that address.
+
+Finally, download [VNC viewer](https://www.realvnc.com/en/connect/download/viewer/) for your platform of choice to connect to your Raspberry Pi at that address.
