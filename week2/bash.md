@@ -2,9 +2,7 @@
 
 -----
 
-If you visit the [IP address](assignip.md) associated with your instance, your web browser will report an error, as we have yet to install and setup web server software on the machine.
-
-We'll need to access the machine to do so, and that requires a trip to your computer's terminal and an understanding of how we can interact with machines with text.
+Let's begin to understand how we can interact with machines through text in a command line interface [cli]. This is the principle method of working with Raspberry Pi's, though similar tools are available on more traditional computing platforms. 
 
 > On Macs or Linux machines, open `Terminal` from the Applications Folder. The directions will assume macOS from here on.
 
