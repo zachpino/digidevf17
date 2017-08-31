@@ -1,4 +1,4 @@
-### Python Basics
+ ### Python Basics
 
 On the Raspberry Pi, Python is an easy to learn programming language with many different interfaces. It is powerful, expressive, and easy to debug.
 
@@ -32,7 +32,7 @@ all over the planet
 print("Hello " + "World") #we can glue text together with the addition sign, just like numbers
 ```
 
-#####Variables
+##### Variables
 It is easy to make a container for information, called a `variable` in Python -- and you don't even need to know what kind of information it will store (unlike many other programming languages). The technical term for this behavior is that Python is a *dynamically-typed* language.
 
 ```
@@ -52,7 +52,7 @@ for i in range(10):
     print("Hello " + str(i) + " times")
 ```
 
-#####Conditions
+##### Conditions
 
 Conditions work the same way as loops.
 
