@@ -59,7 +59,7 @@ This line of code installs all new software packages available, ensuring the Ras
 
 Click on the `Raspberry Menu` and click `Shut Down`. A dialog will pop open and allow you to `Restart`.
 
-####Static IP
+#### Static IP and VNC
 
 It is necessary that the Raspberry Pi always be available at a reliably consistent location on the internet. For this reason, we can set a static IP address.
 
@@ -79,4 +79,10 @@ static domain_name_servers=192.168.0.1
 
 Change the `$$$` to three random numbers and remember that address.
 
-Finally, download [VNC viewer](https://www.realvnc.com/en/connect/download/viewer/) for your platform of choice to connect to your Raspberry Pi at that address.
+Finally, download [VNC viewer](https://www.realvnc.com/en/connect/download/viewer/) for your platform of choice to connect to your Raspberry Pi at that address. But, restart first!
+
+#### Restart your Raspberry Pi
+
+Yes, again. Click on the `Raspberry Menu` and click `Shut Down`. A dialog will pop open and allow you to `Restart`.
+
+
