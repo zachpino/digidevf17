@@ -1,6 +1,6 @@
-### Homework for 9/7/17
+ ### Homework for 9/7/17
 
-- Edit the code and electronics hookup from class, detailed in [the code sample](electronics.md), so that when a user presses a button.
+- Edit the code and electronics hookup from class, detailed in [the code sample](electronics.md), so that when a user presses a button the led illuminates.
 - Add a second button and led, and edit the code so that a user can control two different color leds.
 
 
