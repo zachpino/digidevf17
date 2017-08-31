@@ -38,7 +38,9 @@ Before doing anything, the time must be correctly set so wifi networking connect
 
 Click on the wifi symbol and connect to the "Nerd Corner" network. There is no password.
 
-#### Updating and Upgrading
+Use the Chromium browser (globe icon in the menu bar) and browse the internet. YThis browser is the open source version of Google Chrome. You may notice certain pages render differently, and some may even crash your browser. Welcome to Linux.  
+
+#### Updating and Upgrading Software on Linux
 
 Unlike Windows and macOS, much of the software for the Linux platform is free of charge and readily available. Software is managed in Raspbian by a software package manager called `Aptitude` that can be run interactively from the command line. Open up the Terminal application `[>_]` from the menu bar and type the following, being mindful of capitalization and spaces.
 
@@ -50,4 +52,8 @@ This line of code checks for updated software and ensures you don't get old vers
 ```
 sudo apt-get upgrade
 ```
-This line of code installs all new software packages available, ensuring the Raspberry Pi is fully up-to-date. You may need to press 'q', 'y', or 'i' at various points if the installers require it.
+This line of code installs all new software packages available, ensuring the Raspberry Pi is fully up-to-date. You may need to press 'q', 'y', or 'i' at various points if the installers require it. The process will likely take around 10 minutes.
+
+#### Restart your Raspberry Pi
+
+Click on the `Raspberry Menu` and click `Shut Down`. A dialog will pop open and allow you to `Restart`.
