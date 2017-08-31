@@ -1,4 +1,4 @@
-###Turn on and off an LED on pin 18
+### Turn on and off an LED on pin 18
 
 ```
 import RPi.GPIO as GPIO
@@ -13,7 +13,7 @@ print "LED off"
 GPIO.output(18,GPIO.LOW)
 ```
 
-###Check for button press on pin 21
+### Check for button press on pin 21
 ```
 import RPi.GPIO as GPIO
 import time
@@ -26,5 +26,5 @@ while True:
     input_state = GPIO.input(18)
     if input_state == False:
         print('Button Pressed')
-        time.sleep(0.2)
+        time.sleep(0.5)
 ```
