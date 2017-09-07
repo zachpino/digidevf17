@@ -1,7 +1,5 @@
 ### Week 2
 
+Let's setup our Raspberry Pi's, update their onboard software, install some useful utilities, and connect to them over VNC.
+
 - [Raspberry Pi Setup](setup.md)
-- [Bash Shell Commands](bash.md)
-- [Intro to Python](python.md)
-- [Electronics Sample Code](electronics.md)
-- [Homework](homework.md)
