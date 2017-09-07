@@ -32,7 +32,8 @@ Create an object, fitting within an 8" x 8" x 8" box, that...
 - moves on its own after intial propulsion
 - makes contact with the ground on at least two rolling wheels
 - survives being dropped from table height
-- continues movement *in the same general direction* if it collides with an unanchored object in its path measuring 2" x 2" x 2"
+- continues movement *in the same general direction* if it collides with an anchored object in its path measuring 2" x 2" x 2"
+- can travel six linear feet in less than 30 seconds, while rolling on its own wheels
 - has some style
 
 A rugged toy car with four wheels passes all of these tests, but that's boring!
