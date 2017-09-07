@@ -55,18 +55,34 @@ Enter the following text to create the resizing logic.
 import os, sys
 import Image
 
+# variables for resizing
 width = sys.argv[1]
 height = sys.argv[2]
 
+# work through a loop of all of the input images
 for infile in sys.argv[3:]:
-    outfile = os.path.splitext(infile)[0] + ".thumbnail"
+
+    # remove extension from filename
+    filename = os.path.splitext(infile)[0]
+    outfile = filename + ".thumbnail"
+    
     if infile != outfile:
         try:
+            # open the image for editing
             im = Image.open(infile)
+            
+            #resize the image, with antialiasing turned on
             im.thumbnail(width, height, Image.ANTIALIAS)
+            
+            #save the resized file as a .jpg
             im.save(outfile, "JPEG")
-        except IOError:
-            print "cannot create thumbnail for '%s'" % infile
+            
+            #success
+            print("Thumbnail created!")
+
+except IOError:
+            #error
+            print("Cannot create thumbnail")
 ```
 
 Run the program like so...
