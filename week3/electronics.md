@@ -31,11 +31,11 @@ import time
 GPIO.setmode(GPIO.BCM)
 
 #make sure the pin 'one-way-streets' run the right direction
-GPIO.setup(18, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.setup(21, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 #run forever
 while True:
-    input_state = GPIO.input(18) #check the state of pin 18
+    input_state = GPIO.input(21) #check the state of pin 18
     if input_state == False:
         print('Button Pressed')
         time.sleep(0.5) #delay a bit
