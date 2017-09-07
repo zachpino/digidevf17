@@ -27,7 +27,7 @@ Sorry, worldlyhello only supports arabic, spanish, somali, vietnamese, and inukt
 Make good use of `if` and `elif`!
 
 ##### Motion Challenge
-Create an object, fitting within an 8" x 8" x 8" box, that...
+Create an object *using any means available other than prefabricated parts*, fitting within an 8" x 8" x 8" box, that...
 
 - moves on its own after intial propulsion
 - makes contact with the ground on at least two rolling wheels
