@@ -76,15 +76,18 @@ blue.start(0)
 
 count = "up"
 
-while count == "up" :
-	for i in range(1,100):
-		red.ChangeDutyCycle(i)
-		time.sleep(.1)
-	count = "down"
+while True :
+ if count == "up" :
+  print("ascending")
+  for i in range(1,100):
+   red.ChangeDutyCycle(i)
+   time.sleep(.1)
+  count = "down"
 
-while count == "down" :
-        for i in range(1,100):
-                red.ChangeDutyCycle(100 - i)
-                time.sleep(.1)
-        count = "up"
+ elif count == "down" :
+  print("descending")
+  for i in range(1,100):
+   red.ChangeDutyCycle(100 - i)
+   time.sleep(.1)
+  count = "up"
 ```
