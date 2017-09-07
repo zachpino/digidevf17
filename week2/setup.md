@@ -79,6 +79,8 @@ static domain_name_servers=192.168.1.1
 
 Change the `$$$` to three random numbers between 100 and 255 and remember that address.
 
+Press 'control+o' to save the file (pressing 'enter' afterwards to approve the save), and then 'control+x' to exit. 
+
 Finally, download [VNC viewer](https://www.realvnc.com/en/connect/download/viewer/) for your platform of choice to connect to your Raspberry Pi at that address. But, restart first!
 
 #### Restart your Raspberry Pi
