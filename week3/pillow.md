@@ -52,41 +52,39 @@ nano resize.py
 Enter the following text to create the resizing logic.
 
 ```
+#import necessary dependencies
 import os, sys
-import Image
+from PIL import Image
 
-# variables for resizing
-width = sys.argv[1]
-height = sys.argv[2]
+#access what user entered for overall size and convert to integers
+width = int(sys.argv[1])
+height = int(sys.argv[2])
 
-# work through a loop of all of the input images
+#create tuple
+size = (width, height)
+
+#access all image files user entered
 for infile in sys.argv[3:]:
-
-    # remove extension from filename
-    filename = os.path.splitext(infile)[0]
-    outfile = filename + ".thumbnail"
-    
+    #subtract extension from filename and add .thumbnail
+    outfile = os.path.splitext(infile)[0] + ".thumbnail"
+    #make sure the above line worked...
     if infile != outfile:
         try:
-            # open the image for editing
+            #open file for editing
             im = Image.open(infile)
-            
-            #resize the image, with antialiasing turned on
-            im.thumbnail(width, height, Image.ANTIALIAS)
-            
-            #save the resized file as a .jpg
+            #resize to specified size
+            im.thumbnail(size)
+            #save as jpeg
             im.save(outfile, "JPEG")
-            
-            #success
-            print("Thumbnail created!")
+        except IOError:
+            #let user know in event of error
+            print("cannot create thumbnail for", infile)
 
-except IOError:
-            #error
-            print("Cannot create thumbnail")
 ```
 
-Run the program like so...
+The program will only resize *down*. Run the program like so...
 
 ```
 python resize.py 200 100 ~/Desktop/someimage.jpg
 ```
+
