@@ -1,20 +1,38 @@
 ### Homework for 9/14/17
 
-### Electronics
+##### Electronics
 - Edit the code and electronics hookup from class, detailed in [the code sample](electronics.md), so that when a user presses a button, the led illuminates.
 - Add a second button and second led, and edit the code so that a user can control two different color leds.
 
-### Programming
-Make a python shell script that take inputs for the following...
+##### Programming
+Make a python shell script `worldlyhello.py` that takes a language as input, and outputs "hello world" in that language, or returns an understandable error.
 
-- 
--
-- 
+```
+python worldlyhello.py spanish
+Buenos Dias, el mundo
+```
 
-And outputs values for
+```
+python worldlyhello.py somali
+salaam dunida oa dhan
+```
 
-###Motion Challenge
-Create an object and (if necessary) an associated environment that can travel
+Support at least five languages, and if a user enters an unincluded language, offer help.
 
-The object should...
-- make contact with the ground in at least three places
+```
+python worldlyhello.py burmese
+Sorry, worldlyhello only supports arabic, spanish, somali, vietnamese, and inuktitut.
+```
+
+Make good use of `if` and `elif`!
+
+##### Motion Challenge
+Create an object, fitting within an 8" x 8" x 8" box, that...
+
+- moves on its own after intial propulsion
+- makes contact with the ground on at least two rolling wheels
+- survives being dropped from table height
+- continues movement *in the same general direction* if it collides with an unanchored object in its path measuring 2" x 2" x 2"
+- has some style
+
+A rugged toy car with four wheels passes all of these tests, but that's boring!
