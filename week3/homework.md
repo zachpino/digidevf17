@@ -1,7 +1,8 @@
 ### Homework for 9/14/17
 
 ##### Electronics
-- Edit the code and electronics hookup from class, detailed in [the code sample](electronics.md), so that when a user presses a button, the led illuminates.
+- Create the button circuit and run [the code sample](electronics.md). What questions do you have (there should be many!)?
+- Try to edit the code and electronics hookup from class, detailed in [the code sample](electronics.md), so that when a user presses a button, the led illuminates.
 - Add a second button and second led, and edit the code so that a user can control two different color leds.
 
 ##### Motion Challenge
