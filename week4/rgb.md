@@ -1,4 +1,4 @@
-RGB Common Cathode LED on Pins 12, 16, 21
+### RGB Common Cathode LED on Pins 12, 16, 21
 
 ```
 import RPi.GPIO as GPIO
