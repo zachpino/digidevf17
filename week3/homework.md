@@ -12,7 +12,7 @@ Create an object *using any means available other than prefabricated parts*, fit
 - makes contact with the ground on at least two rolling wheels
 - survives being dropped from table height
 - continues movement *in the same general direction* if it collides with an anchored object measuring 2" x 2" x 2"
-- can travel six linear feet in less than 30 seconds, while rolling on its own wheels under its own guidance
+- can travel six linear feet in less than 30 seconds, while rolling on its own wheels under its own guidance (i.e. without a human holding it)
 - has some style
 
 A rugged toy car with four wheels passes all of these tests, but that's boring!
