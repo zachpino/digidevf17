@@ -62,13 +62,24 @@ sudo apt-get install python-w1thermsensor
 In Python, we can now do the following.
 
 ```
+#import the newly installed library
+import RPi.GPIO as GPIO
+import time
 from w1thermsensor import W1ThermSensor
 
+#set a reusable variable to hold the library's utilities
 sensor = W1ThermSensor()
 
+#loop forever
 while True :
+ #access the sensor's reading
  temp_c = sensor.get_temperature()
+ #do math to convert to different temp scale
  temp_f = (temp_c * (9/5)) + 32
+ #print the result
+ print("temperature in celsius: " + temp_c + " | temperature in fahrenheit: " + temp_f)
+ #wait five seconds between readings
+ time.sleep(5)
 ```
 
 ![rgb led and ds18b20 temp sensor](rgb_led_bb.png)
