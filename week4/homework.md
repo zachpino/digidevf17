@@ -34,7 +34,7 @@ python worldlyhello.py burmese
 Sorry, worldlyhello only supports arabic, quechua, somali, vietnamese, sardinian, and inuktitut.
 ```
 
-Make good use of `if` and `elif`!
+Make good use of `if` and `elif`! Try to use a list to hold all of the possible strings, and access those strings with the `myList[3]` formatting. 
 
 2. Make a python shell script `color.py` that takes a color as input, and outputs that color to an rgb led attached to the GPIO pins and provides feedback to the user of success or failure. The script should support at least red, green, blue, magenta, yellow, cyan, orange, [millenialpink](https://www.theguardian.com/artanddesign/shortcuts/2017/mar/22/millennial-pink-is-the-colour-of-now-but-what-exactly-is-it), white, and black.
 
