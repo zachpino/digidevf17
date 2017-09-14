@@ -50,4 +50,25 @@ while True :
   count = "up"
 ```
 
+### DS18B20 Temperature Sensor on Pin 4 
+
+Install the [necessary library](https://github.com/timofurrer/w1thermsensor) in your terminal for both Python 2 and Python 3.
+
+```
+sudo apt-get install python3-w1thermsensor
+sudo apt-get install python-w1thermsensor
+```
+
+In Python, we can now do the following.
+
+```
+from w1thermsensor import W1ThermSensor
+
+sensor = W1ThermSensor()
+
+while True :
+ temp_c = sensor.get_temperature()
+ temp_f = (temp_c * (9/5)) + 32
+```
+
 ![rgb led and ds18b20 temp sensor](rgb_led_bb.png)
