@@ -65,8 +65,8 @@ Using *any means available to you*, excluding prefabricated parts, create a prop
 - ...to repeatable, controllable distances: 6ft, 10ft, and 20ft in reliably consistent times
 - with a minimum of parts and a maximum of styling
 
-The goal this week is accuracy. How repeatable in time and position can sequential launches be? 
+The goal this week is accuracy, not speed or durability. How repeatable in time and position can sequential launches be? 
 
-The deliverable should be an mp4 or gif recording a set of 3 launches that demonstrate the most similar attainable distance and time. Do not disassemble the propulsion system, we will reuse it. 
+The deliverable should be an mp4 or gif recording a set of 3 launches that demonstrate the most similar attainable distance and time. For example, a video showing a launch of the same vehicle to 6ft each time, with a marking placed to show each launch's result for comparison. Do not disassemble the propulsion system, we will reuse it. 
 
 Materials in the shop to explore include elastic, rubber bands, springs, balloons, controlled inclines or drops, flame-induced vacuum, sails and electric fans... what else could be used?
