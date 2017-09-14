@@ -1,6 +1,6 @@
 ### Homework for 9/21/17
 
-##### Software
+##### Raspberry Pi Improvements
 Install [Fritzing](http://fritzing.org) on your main machine for circuit layout diagramming.
 
 Also install it onto your Raspberry Pi
@@ -9,8 +9,10 @@ Also install it onto your Raspberry Pi
 sudo apt-get install fritzing
 ```
 
+Change your background desktop image as well, have your Raspberry Pi reflect your personality a bit!
+
 ##### Electronics
-Create a circuit that, when a user presses and holds a button, an RGB LED illuminates and displays a color dependent on a reading from the DS18B20 sensor.
+Create a circuit that, when a user presses a button, a set of LEDs -- including at least your RGB LED and 2 regular colored LEDs -- illuminate and display an encoded but legible version of the reading from the DS18B20 sensor.  Bring this circuit to class for a shareout.
 
 ##### Programming
 1. Make a python shell script `worldlyhello.py` that takes a language as input, and outputs "hello world" in that language, or returns an understandable error.
