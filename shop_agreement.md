@@ -11,6 +11,7 @@ Throughout all of my time using these machines, I will...
 - vigilantly supervise the machine while it is in operation
 - not take any medication or substance that forbids or discourages "the use of heavy machinery."
 - not disrupt another student's work in progress unless they have left the machine and their work unattended
+- fabricate only content that I produced myself, and never unlicensed content, illegally acquired intellectual property, or someone else's work 
 - report any damage to the machines to Shop staff
 - leave equipment cleaned and fully powered down
 
