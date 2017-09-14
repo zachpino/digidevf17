@@ -58,6 +58,7 @@ Install the [necessary library](https://github.com/timofurrer/w1thermsensor) in 
 sudo apt-get install python3-w1thermsensor
 sudo apt-get install python-w1thermsensor
 ```
+Visit the Raspberry Menu -> Preferences -> Raspberry Pi Configuration. Under "Interfaces," set `1-Wire` to `Enable`.
 
 In Python, we can now do the following.
 
@@ -76,8 +77,8 @@ while True :
  temp_c = sensor.get_temperature()
  #do math to convert to different temp scale
  temp_f = (temp_c * (9/5)) + 32
- #print the result
- print("temperature in celsius: " + temp_c + " | temperature in fahrenheit: " + temp_f)
+ #print the result and convert to strings
+ print("temperature in celsius: " + str(temp_c) + " | temperature in fahrenheit: " + str(temp_f))
  #wait five seconds between readings
  time.sleep(5)
 ```
