@@ -28,7 +28,7 @@ The first "shebang" line of the script tells the terminal application what progr
 
 `import sys` adds the 'system' module, allowing the python code to access information coming at it from low-level software stacks, like the standard input/output that the terminal application uses.
 
-We associate the variable `name` with the second element of a Python list (lists start at [0], so [1] is the second item) produced by the system module called `argv`. `argv` returns the command that launched this python application as a list. The [0] item is the name of the application, and the rest of the list are the arguments entered.
+We associate the variable `name` with the second element of a Python list (lists start at [0], so [1] is the second item) produced by the system module called `argv`. `argv` returns the command that launched this python application, and its arguments and options, as a list. The [0] item is the name of the command, and the rest of the list are the arguments entered in order.
 
 We can run the application like so.
 
