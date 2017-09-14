@@ -42,6 +42,29 @@ Python will return
 Hello zach
 ```
 
+We can edit the program to include more information...
+```
+nano hello.py
+```
+... to include time and date information.
+
+```
+#!/usr/bin/python
+# Hello world python program
+
+#import dependencies
+import sys
+import time
+
+#get user arguments
+name = sys.argv[1]
+
+#get current time and convert to string
+now = str(time.ctime())
+
+print("hello " + name + ", it is now " + now)
+```
+
 The combination of python code and shell arguments is incredibly powerful, with many obvious applications. For instance, we can produce a simple command line image resizer with the [Pillow](https://python-pillow.org) Python image processing library.
 
 ```
