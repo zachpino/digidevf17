@@ -1,6 +1,6 @@
 ### Digital and Electronic Prototyping Tools Usage Agreement
 
-I, _________________________________________________________________________, agree to follow all communicated rules and regulations surrounding the use of the Institute of Design Fabrication Lab's [the "Shop"] laser cutter, CNC Machine, Tech Bench, and 3D printers. 
+I, ________________________________________________, agree to follow all communicated rules and regulations surrounding the use of the Institute of Design Fabrication Lab's [the "Shop"] laser cutter, CNC Machine, Tech Bench, and 3D printers. 
 
 Throughout all of my time using these machines, I will...
 
