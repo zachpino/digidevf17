@@ -25,7 +25,7 @@ Have the RGB illuminate to the following colors at these Celsius temperatures. F
       Magenta <= 18 
 ```
 
-You will need compound conditions to make this happen. Take a look at the [grade.py](https://www.digitalocean.com/community/tutorials/how-to-write-conditional-statements-in-python-3-2) example halfway down this page in this tutorial on conditions in Python for a hint.
+You will need compound conditions to make this happen. Take a look at the [grade.py example halfway down this page](https://www.digitalocean.com/community/tutorials/how-to-write-conditional-statements-in-python-3-2) in this tutorial on conditions in Python for a hint.
 
 Come to class next week with the completed circuit, code, and any questions.
 
