@@ -27,9 +27,12 @@ green.start(0)
 blue = GPIO.PWM(bPin,freq)
 blue.start(0)
 
+#set color and intensity
 red.ChangeDutyCycle(25)
 green.ChangeDutyCycle(50)
 blue.ChangeDutyCycle(75)
+
+#delay so we can see the led illuminate
 time.sleep(3)
 
 ```
