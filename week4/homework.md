@@ -9,58 +9,25 @@ Also install it onto your Raspberry Pi
 sudo apt-get install fritzing
 ```
 
-Change your background desktop image as well, have your Raspberry Pi reflect your personality a bit!
+Change your background desktop image as well, have your Raspberry Pi reflect your personality a bit! Use your Raspberry Pi to browse the internet, and check out its built-in software.
 
-##### Electronics
-Create a circuit that, when a user presses a button, a set of LEDs -- including at least your RGB LED and 2 regular colored LEDs -- illuminate and display an encoded but legible version of the reading from the DS18B20 sensor.  Bring this circuit to class for a shareout.
+##### Electronics and Programming
+Create a circuit that, *when a user presses a button*, an RGB LED illuminates for a set amount of time to display an encoded but legible version of the reading from the DS18B20 sensor. 
 
-##### Programming
-1. Make a python shell script `worldlyhello.py` that takes a language as input, and outputs "hello world" in that language, or returns an understandable error.
-
-```
-python worldlyhello.py spanish
-buenos dias, a todo el mundo
-```
+Have the RGB illuminate to the following colors at these Celsius temperatures. Feel free to adjust these numbers to the readings of your sensor in the studio so you can see the full RGB rainbow.
 
 ```
-python worldlyhello.py somali
-salaam dunida oa dhan
+30 >  Red
+27 >  Yellow  <= 30
+24 >  Green   <= 27
+21 >  Cyan    <= 24
+18 >  Blue    <= 21
+      Magenta <= 18 
 ```
 
-Support at least five languages, and if a user enters an unincluded language, offer help.
+You will need compound conditions to make this happen. Take a look at the [grade.py](https://www.digitalocean.com/community/tutorials/how-to-write-conditional-statements-in-python-3-2) example halfway down this page in this tutorial on conditions in Python for a hint.
 
-```
-python worldlyhello.py burmese
-Sorry, worldlyhello only supports arabic, quechua, somali, vietnamese, sardinian, and inuktitut.
-```
-
-Make good use of `if` and `elif`! Try to use a list to hold all of the possible strings like this pseudo-code.
-
-```
-helloWorldList = ["Hello world", "Buon giorno, a tutto il mondo", "Marhabaan liljamie"]
-
-if sys.argv[1] == "italian"
- print(helloWorldList[1])
-```
-
-2. Make a python shell script `color.py` that takes a color as input, and outputs that color to an rgb led attached to the GPIO pins and provides feedback to the user of success or failure. The script should support at least red, green, blue, magenta, yellow, cyan, orange, [millenialpink](https://www.theguardian.com/artanddesign/shortcuts/2017/mar/22/millennial-pink-is-the-colour-of-now-but-what-exactly-is-it), white, and black.
-
-```
-python color.py cyan
-The LED is glowing cyan
-
-python color.py purple
-This LED does not support purple. Try colors like red, cyan, or white.
-```
-
-Could you create functionality in the same script that, in the event of 3 numerical inputs, uses those values to set the color of an RGB led directly? You can use `len()` to check how many arguments the user has entered.
-
-```
-if len(sys.argv) == 3
- ...
-else
- ...
-```
+Come to class next week with the completed circuit, code, and any questions.
 
 ##### Motion Challenge
 
