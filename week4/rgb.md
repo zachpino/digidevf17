@@ -27,27 +27,11 @@ green.start(0)
 blue = GPIO.PWM(bPin,freq)
 blue.start(0)
 
-#variable to hold the state of the leds -- increasing or decreasing in brightness
-count = "up"
+red.ChangeDutyCycle(25)
+green.ChangeDutyCycle(50)
+blue.ChangeDutyCycle(75)
+time.sleep(3)
 
-#loop forever
-while True :
- #check if the led should be increasing in brightness
- if count == "up" :
-  print("ascending")
-  #increment the red pin all the way up to full intensity
-  for i in range(1,100):
-   red.ChangeDutyCycle(i)
-   time.sleep(.1)
-  #set the flag to decrease the brightness of the leds after fully illuminating
-  count = "down"
-
- elif count == "down" :
-  print("descending")
-  for i in range(1,100):
-   red.ChangeDutyCycle(100 - i)
-   time.sleep(.1)
-  count = "up"
 ```
 
 ### DS18B20 Temperature Sensor on Pin 4 
