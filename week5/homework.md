@@ -1,4 +1,4 @@
-
+### Homework for 9/28/17
 
 ##### Programming
 1. Make a python shell script `worldlyhello.py` that takes a language as input, and outputs "hello world" in that language, or returns an understandable error.
@@ -47,3 +47,12 @@ if len(sys.argv) == 3
 else
  ...
 ```
+
+##### Motion Challenge | Chilly Robot
+Using any means available to you, create an object that has a temperature sensor and RGB LED onboard, as well as means for rolling motion. The object should...
+
+- ...take the average of several temperature reading with short time gaps in between. The object should indicate visually that it is "thinking."
+ - if that averaged temperature reading is higher than the previous reading, the object should move forward and display warm colors.
+ - otherwise, if the number is lower than the previous reading, the object should move backwards and display cool colors.
+ 
+ The net result is that the object should, given a linear region, continually seek out the warmest spot autonomously.
