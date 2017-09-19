@@ -44,4 +44,4 @@ GPIO.cleanup()
 
 ### L293D and Dual DC Motors
 
-![l293d and 1 motor](l293d_singlemotor_bb.png)
+![l293d and 1 motor](l293d_dualmotor_bb.png)
