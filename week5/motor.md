@@ -1,5 +1,6 @@
 ### L293D and Single DC Motor
 
+[L293D Data Sheet](http://www.ti.com/lit/ds/symlink/l293d.pdf)
 ![l293d and 1 motor](l293d_singlemotor_bb.png)
 
 ```
