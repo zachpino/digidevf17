@@ -3,45 +3,50 @@
 ![l293d and 1 motor](l293d_singlemotor_bb.png)
 
 ```
+#modules
 import RPi.GPIO as GPIO
 from time import sleep
- 
+
+#pin layout
 GPIO.setmode(GPIO.BCM)
 
-Motor1A = 27
-Motor1B = 22
-Motor1E = 17
- 
-GPIO.setup(Motor1A,GPIO.OUT)
-GPIO.setup(Motor1B,GPIO.OUT)
-GPIO.setup(Motor1E,GPIO.OUT)
+#pin assignments.
+MotorA = 27
+MotorB = 22
+MotorPower = 17
 
+#pin direction
+GPIO.setup(MotorA,GPIO.OUT)
+GPIO.setup(MotorB,GPIO.OUT)
+GPIO.setup(MotorPower,GPIO.OUT)
+
+#PWM cycle frequency
 freq = 100
 
-motor = GPIO.PWM(Motor1E, freq)
+#Startup PWM
+motor = GPIO.PWM(MotorPower, freq)
 motor.start(0)
 
 print "Going forwards, fast"
-GPIO.output(Motor1A,GPIO.HIGH)
-GPIO.output(Motor1B,GPIO.LOW)
+GPIO.output(MotorA,GPIO.HIGH)
+GPIO.output(MotorB,GPIO.LOW)
 motor.ChangeDutyCycle(90)
  
 sleep(2)
  
 print "Going backwards, slow"
-GPIO.output(Motor1A,GPIO.LOW)
-GPIO.output(Motor1B,GPIO.HIGH)
+GPIO.output(MotorA,GPIO.LOW)
+GPIO.output(MotorB,GPIO.HIGH)
 motor.ChangeDutyCycle(50)
-
  
 sleep(2)
  
 print "Now stop"
-GPIO.output(Motor1E,GPIO.LOW)
+GPIO.output(MotorPower,GPIO.LOW)
  
 GPIO.cleanup()
 ```
 
-### L293D and Dual DC Motors
+### L293D and Dual DC Motors | Extra Challenge!
 
 ![l293d and 1 motor](l293d_dualmotor_bb.png)
