@@ -50,3 +50,6 @@ GPIO.cleanup()
 ### L293D and Dual DC Motors | Extra Challenge!
 
 ![l293d and 1 motor](l293d_dualmotor_bb.png)
+
+### L293D Pinout
+![L293D Pinout](http://fritzing.org/media/fritzing-repo/projects/l/l293d-motor-driver-pinout-diagram/images/Screenshot_14.png)
