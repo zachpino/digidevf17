@@ -51,3 +51,4 @@ while True :
    time.sleep(.1)
   count = "up"
 ```
+![fade led](rgb_led_fade_bb.png)
