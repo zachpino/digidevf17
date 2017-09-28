@@ -1,3 +1,5 @@
+### Homework for 10/5
+
 ##### Programming
 1. Make a python shell script `worldlyhello.py` that takes a language as input, and outputs "hello world" in that language, or returns an understandable error.
 
@@ -45,3 +47,7 @@ if len(sys.argv) == 3
 else
  ...
 ```
+
+##### Motion Challenge
+
+Complete [last week's exercise for demonstration and testing](../week5/homework.md).
