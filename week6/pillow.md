@@ -74,7 +74,7 @@ nano resize.py
 
 Enter the following text to create the resizing logic.
 
-```
+```python
 #import necessary dependencies
 import os, sys
 from PIL import Image
