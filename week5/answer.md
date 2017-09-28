@@ -1,4 +1,4 @@
-```
+```python
 #Python script for digital temperature sensor (pin 4), button (pin 21), and RGB LED readout (pins 12,16,20)
 
 #necessary dependencies
