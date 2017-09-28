@@ -1,3 +1,5 @@
+### Python Program : Image Resizing with Pillow
+
 The combination of python code and shell arguments is incredibly powerful, with many obvious applications. For instance, we can produce a simple command line image resizer with the [Pillow](https://python-pillow.org) Python image processing library.
 
 ```
