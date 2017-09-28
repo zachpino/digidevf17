@@ -1,4 +1,8 @@
-```
+### Fading a PWM Component 
+
+Use this sort of logic to smoothly fade an LED, spin up or slow down a motor, or move a servo into place.
+
+```python
 #necessary dependencies
 import RPi.GPIO as GPIO
 import time
