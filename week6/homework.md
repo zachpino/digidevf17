@@ -53,3 +53,7 @@ else
 Complete [last week's exercise for demonstration and testing](../week5/homework.md).
 
 As an extra optional challenge, can the chilly robot be a bit smarter and, using a list, hold onto all of its sensed values? After enough movement in a straight line, can it return to where it found the warmest spot reliably?
+
+Also, could your robot handle this?
+
+![heat map](hmap.png)
