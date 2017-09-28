@@ -4,4 +4,5 @@
 - [Week 3](week3/readme.md)
 - [Week 4](week4/readme.md)
 - [Week 5](week5/readme.md)
+- [Week 6](week6/readme.md)
 
