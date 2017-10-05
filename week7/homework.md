@@ -15,6 +15,8 @@ Using *any means available*, create a robot that can...
 
 The net effect should be a robot that is capable of exploring a 2-dimensional space autonomously, and identify anomolously warm spots.
 
+Extra Challenge: could a button be used as a collision sensor?
+
 ##### Other RasPi Uses
 Investigate another use for your Raspberry Pi over break. Game console, musical instrument, under tv media box, scientific cluster...
 
