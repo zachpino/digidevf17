@@ -1,10 +1,10 @@
 ### Servo Control
 
-To drive a [servo](https://en.wikipedia.org/wiki/Servomotor) motor, pulse width modulation is used
+Traditional DC motors are great, but they are only good at spinning. When more control is required, a [servo](https://en.wikipedia.org/wiki/Servomotor) motor can be implemented with pulse width modulation to vary the angle with high precision and repeatability. 
 
-Microservers, typically weighing around 10 grams, are able to sweep from 0 to 180 degrees. These microservo motors can travel 90 degrees in .2 seconds, and offer enough torque to keep a small wheel in position. Larger and more expensive servos can sweep 360 degrees.
+Microservers, typically weighing around 10 grams, are able to sweep from 0 to 180 degrees. These microservo motors can travel 90 degrees in .2 seconds, and offer enough torque to keep a small wheel in position. Larger and more expensive servos can sweep 360 degrees and hold up to significant force.
 
-To drive a servo to a specific position, the following code can be used.
+To drive a servo to a specific position, the following python code can be used.
 
 ```python
 #!/usr/bin/python
