@@ -18,8 +18,8 @@ The net effect should be a robot that is capable of exploring a 2-dimensional sp
 Extra Challenge: could a button be used as a collision sensor?
 
 ##### Other RasPi Uses
-Investigate another use for your Raspberry Pi over break. Game console, musical instrument, under tv media box, scientific cluster...
+Investigate another use for your Raspberry Pi over break. Game console, musical instrument, under tv media box, scientific cluster... Report back to class after break.
 
-###### Purchases
+##### Purchases
 - Please [purchase a USB power pack](https://www.amazon.com/ZILU-4400mAh-Portable-External-Motorola/dp/B00MWV1TJ6/ref=sr_1_1?ie=UTF8&qid=1507249484&sr=8-1&keywords=zilu+smart) for your Raspberry Pi.
 - Please purchase an interesting sensor from [this set of pages](https://www.sparkfun.com/categories/23). Clear it with Zach first to avoid wasting money!
