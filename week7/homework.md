@@ -21,5 +21,5 @@ Extra Challenge: could a button be used as a collision sensor?
 Investigate another use for your Raspberry Pi over break. Game console, musical instrument, under tv media box, scientific cluster... Report back to class after break.
 
 ##### Purchases
-- Please [purchase a USB power pack](https://www.amazon.com/ZILU-4400mAh-Portable-External-Motorola/dp/B00MWV1TJ6/ref=sr_1_1?ie=UTF8&qid=1507249484&sr=8-1&keywords=zilu+smart) for your Raspberry Pi.
+- Please [purchase a USB power pack](https://www.amazon.com/ZILU-4400mAh-Portable-External-Motorola/dp/B00MWV1TJ6/ref=sr_1_1?ie=UTF8&qid=1507249484&sr=8-1&keywords=zilu+smart) for your Raspberry Pi. Any USB power pack can be used, though a 2A output will ensure that the USB ports work as expected. Roughlym, every 1000mAh yields an hour of battery life for the RasPi.
 - Please purchase an interesting sensor from [this set of pages](https://www.sparkfun.com/categories/23). Clear it with Zach first to avoid wasting money!
