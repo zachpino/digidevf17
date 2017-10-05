@@ -41,9 +41,13 @@ def angleMap(deg) :
 	servoPos =  int( (deg*(19.0/186.0)) + 6 )
 	return servoPos
 
+#sweep servo
 servo.ChangeDutyCycle(angleMap(degree))
 
+#wait for servo to move fully
 time.sleep(1.5)
+
+GPIO.cleanup()
 ```
 
 ![servo](servo_bb.png)
