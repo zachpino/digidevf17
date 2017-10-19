@@ -1,5 +1,6 @@
 ### Simple Plots
 
+Single Plot
 
 ```python
 import matplotlib.pyplot as plt
