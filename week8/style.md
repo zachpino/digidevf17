@@ -12,6 +12,7 @@ plt.xlabel('time in seconds')
 plt.ylabel('sensor value')
 plt.title('my sensor')
 
+# Note that color is expressed in a list of three parameterized values for Red, Green, and Blue. 0 is none, 1 is all, .5 is half. 
 plt.plot(x,y,linewidth='3',linestyle='dashed',color=[.5,.1,.75])
 
 plt.show()
