@@ -6,4 +6,4 @@ A little bit of a detour this week
 - [Simple Plotting](plotting.md)
 - [Advanced Plotting](advanced.md)
 - [Styling Example](style.md)
-- [Homework](homework.md)
+- [Real Data](worlddata.md)
