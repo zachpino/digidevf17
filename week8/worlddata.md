@@ -1,4 +1,4 @@
-### Data
+### Sample Data to Plot
 
 Historical population data from [World Bank Data](https://data.worldbank.org/indicator/SP.POP.TOTL). 
 
