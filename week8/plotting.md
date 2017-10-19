@@ -34,9 +34,10 @@ plt.subplot(2, 1, 1)
 plt.plot(x, y1)
 plt.ylabel('Sensor 1')
 
-#now we're building the second plot...
+#now we're building the second plot, this one filled!
 plt.subplot(2, 1, 2)
 plt.plot(x, y2)
+plt.fill(x, y2
 plt.ylabel('Sensor 2')
 plt.xlabel('Time in Seconds')
 
