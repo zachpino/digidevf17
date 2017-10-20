@@ -6,5 +6,6 @@
 - [Week 5](week5/readme.md)
 - [Week 6](week6/readme.md)
 - [Week 7](week7/readme.md)
+- [Week 8](week8/readme.md)
 
 
