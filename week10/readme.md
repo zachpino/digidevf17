@@ -14,15 +14,24 @@ You have a choice in your final brief. Select one of the following projects and 
 *Perfected functionality* is much less important than demonstrated effort and exploration. 
 
 Brief 1 - Search & Rescue Robot
-Select a manmade or natural catastrophe that would require robotic assistance. The choice of movement system should be tied to research and direct experimentation. 
+Select a manmade or natural catastrophe that would require robotic assistance and an environment in which that catastrophe is likely to occur. For instance, an extreme blizzard would likely strike mountainous, rocky, regions. Once that choice is made, research the environment and design a robotic system capable of finding and/or rescuing life or other valuable materials.
+
+The choice of movement system should be tied to research into the catastophe. A rolling locomotory system would be a poor choice for 
+
+Requirements
+- At least two sensors should be used to synthesize a computational awareness of the environment.
+-
+-
 
 Deliverables
-- Commented Python Code
-- Project Documentation Annotated Photgraphs as a 
+- Raspberry Pi-controlled robot demonstrating core functionality
+- Commented Python code with links to all included modules
+- Project Documentation through a sequence of annotated photgraphs 
 - Single Poster, 18"x24", of how the 
 
 
-Brief 2 -
+Brief 2 - Biomimetic Experimentation
+- 
 
 
 Brief 3 - Choose Your Own Adventure
