@@ -11,14 +11,12 @@ The end of the semester is approaching, and there are only a few weeks left to c
 
 You have a choice in your final brief. Select one of the following projects and complete the deliverables by our final critique date (12/07). Your work will be evaluated on concept, ambition, research rigor, and execution.
 
-*Perfected functionality* is much less important than demonstrated and consistent effort, perseverence, and broad exploration. This project can be approached individually or in teams of two.
-
+*Perfected functionality* and complete realization is much less important than demonstrated and consistent effort, perseverence, and broad exploration. This project can be approached individually or in teams of two. Students should expect to order some supplies for this project -- if ambitions are high and costs are onerous, let Zach know.
 
 > Unified Brief Requirements
 > - The robot must incorporate at least two sensors to synthesize a computational awareness of the environment
-> - The robot must be mobile with at least one motor/servo/stepper driving its movement  
-> - The robot chassis and design must be appropriate for its intended environment in form and material 
-
+> - The robot must be mobile with at least one motor/servo/stepper/solenoid driving its movement  
+> - The robot chassis and design must be appropriate for its intended environment in form and material, which should be fully considered
 
 -----
 
@@ -31,9 +29,9 @@ The choice of movement system should be tied to research into the catastophe and
 > Deliverables
 >- Raspberry Pi-controlled prototype robot demonstrating *core functionality* in a recreation of the environment for which it is designed
 >- Commented Python code with links to all included modules
->- Project Documentation through a sequence of annotated photographs 
+>- Project documentation through a sequence of annotated photographs 
 >- Storyboard of images demonstrating how the robot *sees*, *locates*, and potentially *retrieves* objects of interest
->- Some representation of the final robot design with material and formal choices
+>- Some representation (render, illustration, technical drawing) of the final robot design with material and formal choices
 >- Single layout, 18"x24", describing the project (doesn't need to be printed, should be legible when projected)
 
 -----
@@ -41,12 +39,14 @@ The choice of movement system should be tied to research into the catastophe and
 #### Brief 2 - The Highly Mobile Robot (Electronics and Kinetics Focus)
 Study how some specific natural entity moves, and through a combination of motors and other kinetic mechanisms alongside a complement of sensors, recreate that motion programmatically.
 
+After the motion is recreated, envision a set of applications for the developed kinetic articulation.
+
 > Deliverables
 >- Raspberry Pi-controlled robot prototype capable of moving autonomously through a recreation of its environment
 >- Commented Python code with links to all included modules
->- Project Documentation through a sequence of annotated photographs 
->- Storyboard of images demonstrating how the robot *sees*, *locates*, and potentially *retrieves* objects of interest
->- A proposal document detailing how the motion as designed could be applied in a set of real-life commercial or exploratory applications 
+>- Project documentation through a sequence of annotated photographs 
+>- Storyboard of images demonstrating how the robot *moves* around, *avoids* environmental obstacles, and *engages* objects of interest
+>- A proposal document detailing how the motion as designed could be scoped and applied to a set of real-life commercial or exploratory applications 
 >- Single layout, 18"x24", describing the project (doesn't need to be printed, should be legible when projected)
 
 -----
@@ -59,10 +59,10 @@ Generate a set of insights based on secondary research, and prototype a support 
 > Deliverables
 >- Raspberry Pi-controlled robot prototype capable of engaging an impaired user
 >- Commented Python code with links to all included modules
->- Project Documentation through a sequence of annotated photographs 
+>- Project documentation through a sequence of annotated photographs 
 >- Storyboard of images demonstrating how the robot *intervenes and improves the lives* of individuals with dementia
 >- A proposal document, with text and imagery, detailing a future scenario (utopic or dystopic) in which such robots are common
->- Single Layout, 18"x24", describing the project (doesn't need to be printed, should be legible when projected)
+>- Single layout, 18"x24", describing the project (doesn't need to be printed, should be legible when projected)
 
 -----
 
