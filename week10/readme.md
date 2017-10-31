@@ -13,19 +13,20 @@ You have a choice in your final brief. Select one of the following projects and 
 
 *Perfected functionality* is much less important than demonstrated and consistent effort, perseverence, and broad exploration. This project can be approached individually or in teams of two.
 
----
+-----
 
-Brief 1 - Search & Rescue Robot (Sensor and Data Analysis Focus)
-Select a manmade or natural catastrophe that would require robotic assistance and an environment in which that catastrophe is likely to occur. For instance, an extreme blizzard would likely strike mountainous, rocky, regions. Once that choice is made, research the environment and design a robotic system capable of finding and/or rescuing life or other valuable materials.
+#### Brief 1 - Search & Rescue Robot (Sensor and Data Analysis Focus)
+
+Select a manmade or natural catastrophe that would require robotic assistance and an environment in which that catastrophe is likely to occur. For instance, an extreme blizzard would likely strike mountainous, rocky, and high altitude regions. Once that choice is made, research the environment and *design a robotic system capable of finding and/or rescuing life and/or other specific materials*.
 
 The choice of movement system should be tied to research into the catastophe. A rolling locomotory system, for example. would be a poor choice for mountainous terrain -- while an ambulatory, scansorial, or flighted system would be a better fit.
 
-Requirements
-- At least two sensors should be used to synthesize a computational awareness of the environment.
-- The robot must be mobile 
--
+> Requirements
+> - At least two sensors should be used to synthesize a computational awareness of the environment.
+> - The robot must be mobile with at least one motor/servo/stepper driving some  
+> - The robot must 
 
->Deliverables
+> Deliverables
 >- Raspberry Pi-controlled robot demonstrating core functionality in a recreation of the environment for which it is designed
 >- Commented Python code with links to all included modules
 >- Project Documentation through a sequence of annotated photgraphs 
