@@ -52,7 +52,7 @@ After the motion is recreated, envision a set of applications for the developed 
 -----
 
 #### Brief 3 - The Support Robot (Social Design and Design Futures Focus)
-Read through the full text of this [National Institute of Health call for proposals (CFP)](https://grants.nih.gov/grants/guide/pa-files/PAR-17-107.html) that seeks ideas on how future robotic systems can support aging individuals with Alzheimer's disease and Alzheimer's-disease-related dementias through both physical and emotional assistance. 
+Read through the full text of this [National Institute of Health Grant call for proposals (CFP)](https://grants.nih.gov/grants/guide/pa-files/PAR-17-107.html) that seeks ideas on how future robotic systems can support aging individuals with Alzheimer's disease and Alzheimer's-disease-related dementias through both physical and emotional assistance. 
 
 Generate a set of insights based on secondary research, and prototype a support robot that addresses some aspect of the CFP.
 
