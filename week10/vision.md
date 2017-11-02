@@ -1,6 +1,6 @@
 ### Sonar with Raspberry Pi
 
-There are many components that allow a robot to *see* its environment including cameras, optical sensors, and luminosity sensors. These, though, are not nearly as useful as [sonic based imaging](https://en.wikipedia.org/wiki/Sonar) for most applications.
+There are many components that allow a robot to *see* its environment including [cameras](https://www.open-electronics.org/computer-vision-with-raspberry-pi-and-the-camera-pi-module/), [optical sensors](https://www.sparkfun.com/products/12728), and [physical sensors](https://www.sparkfun.com/categories/80). These, though, are not nearly as useful as [sonic based imaging](https://en.wikipedia.org/wiki/Sonar) for most applications.
 
 This code works with a [HC-SR04](https://www.sparkfun.com/products/13959) sensor to blast out an sonic signal and wait for its echo. An experimentally determined coefficient is used to convert the delay between sound blast and received echo into meaningful units (here centimeters).
 
