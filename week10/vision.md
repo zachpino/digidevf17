@@ -11,7 +11,7 @@ Ensure you have the standard Raspberry Pi GPIO libraries, up to date.
 sudo apt-get upgrade
 ```
 
-### Code
+##### Code
 ```python
 #standard imported libraries
 import RPi.GPIO as GPIO
@@ -64,6 +64,6 @@ print("Distance: " + str(distance) + "cm")
 GPIO.cleanup()
 ```
 
-### Wiring
+##### Wiring Diagram
 
 ![sonar](sonar.png)
