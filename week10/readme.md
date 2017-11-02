@@ -1,4 +1,8 @@
-### End of Semester Schedule and Final Briefs
+### Week 10
+
+- [Vision Systems](vision.md)
+
+##### End of Semester Schedule and Final Briefs
 The end of the semester is approaching, and there are only a few weeks left to cover a lot of material.
 
 - 11/02 - Walking Systems, Computer Vision, and Python Classes
