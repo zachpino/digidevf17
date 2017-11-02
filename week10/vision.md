@@ -4,6 +4,14 @@ There are many components that allow a robot to *see* its environment including 
 
 This code works with a [HC-SR04](https://www.sparkfun.com/products/13959) sensor to blast out an sonic signal and wait for its echo. An experimentally determined coefficient is used to convert the delay between sound blast and received echo into meaningful units (here centimeters).
 
+##### Installation
+Ensure you have the standard Raspberry Pi GPIO libraries, up to date.
+
+```
+sudo apt-get upgrade
+```
+
+### Code
 ```python
 #standard imported libraries
 import RPi.GPIO as GPIO
@@ -13,8 +21,8 @@ import time
 GPIO.setmode(GPIO.BCM)
 
 #pinout
-TRIG = 16 
-ECHO = 21
+TRIG = 23
+ECHO = 24
 
 #pin direction
 GPIO.setup(TRIG,GPIO.OUT)
@@ -55,3 +63,7 @@ print("Distance: " + str(distance) + "cm")
 #reset pins to their original state
 GPIO.cleanup()
 ```
+
+### Wiring
+
+![sonar](sonar.png)
